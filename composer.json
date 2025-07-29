@@ -1,0 +1,23 @@
+{
+    "name": "hubleto/dev",
+    "license": "MIT",
+    "description": "Business Application Hub. Opensource ERP and CRM.",
+    "homepage": "https://www.hubleto.com",
+    "support": {
+        "issues": "https://github.com/hubleto/main/issues",
+        "source": "https://github.com/hubleto/main"
+    },
+    "keywords": ["hubleto", "crm", "erp", "application", "hub"],
+    "require": {
+        "hubleto/main": "0.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "HubletoApp\\Custom\\": "src/apps",
+            "HubletoProject\\Hook\\": "src/hooks",
+            "HubletoProject\\Cron\\": "src/crons",
+            "HubletoProject\\Report\\": "src/reports",
+            "HubletoProject\\Dependency\\": "src/dependencies"
+        }
+    }
+}
