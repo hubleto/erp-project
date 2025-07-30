@@ -22,6 +22,8 @@ The other underlying repositories are:
 
 **Complete Hubleto suite is freely available. Simply download, install and use it for your commercial projects.**
 
+> **QUICK TIP:** Do you want to integrate Hubleto with ChatGPT? Check this article: https://developer.hubleto.com/v0/advanced-development/miscellaneous/hubleto-chatgpt
+
 ## Become contributor
 
 If you want to contribute, check https://github.com/hubleto/dev for instructions how to install the development environment.
