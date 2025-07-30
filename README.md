@@ -16,7 +16,7 @@ The other underlying repositories are:
   * `hubleto/react-ui` - React-based UI using other libraries like `primereact` but modified and tailored for Hubleto ERP
   * `hubleto/terminal` - a simple command-line tool for PHP
   * `hubleto/apps` - set of freely available apps covering features like CRM, supply-chain or project management
-  * `hubleto/main` - package combining everything together into a Hubleto ERP solution
+  * `hubleto/main` - package combining everything together into a Hubleto ERP solution.
 
 `hubleto/erp` (this repository) is a package for `composer create-project` command which installs the `hubleto/main` and adds some other files for easier customization after installation.
 
@@ -36,6 +36,7 @@ Do not hesitate and contact us via [LinkedIn](https://www.linkedin.com/company/1
 
 ## See also
 
+  * https://github.com/hubleto/main - the 'main' repository for Hubleto
   * https://developer.hubleto.com - developer guide for Hubleto
   * https://help.hubleto.com - user guide for Hubleto
   * https://www.hubleto.com - a presentation website
