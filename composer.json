@@ -9,7 +9,7 @@
     },
     "keywords": ["hubleto", "crm", "erp", "application", "hub"],
     "require": {
-        "hubleto/main": "0.15.3"
+        "hubleto/main": "^0.15"
     },
     "autoload": {
         "psr-4": {
