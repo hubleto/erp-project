@@ -1,5 +1,6 @@
 {
     "name": "hubleto/erp",
+    "license": "AGPL-3.0-or-later",
     "description": "Production-ready Hubleto ERP.",
     "homepage": "https://www.hubleto.com",
     "support": {
