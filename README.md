@@ -6,6 +6,8 @@ This is the repository for installation of production-ready Hubleto ERP. To inst
   * `composer create-project hubleto/erp .`
   * `php hubleto init`
 
+🌟 Star if you like it!
+
 <img src="docs/images/01.jpg" width="200px"></img>
 
 **Hubleto** is a community project, a series of repositories resulting in an opensource ERP/CRM package (this `hubleto/erp` repository).
