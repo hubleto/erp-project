@@ -1,16 +1,26 @@
+# project location
 rewriteBase: /hubleto-erp/
-rootUrl: http://localhost/hubleto-erp
+projectUrl: http://localhost/hubleto-erp
+srcUrl: http://localhost/hubleto-erp/vendor/hubleto/main
+assetsUrl: http://localhost/hubleto-erp/assets
+
+# database connection
 dbHost: localhost
 dbUser: root
 dbPassword: ''
 dbName: hbl_erp
 dbCodepage: utf8mb4
+
+# initial account access
 accountFullName: Hubleto Erp
 adminName: ERP
 adminFamilyName: Hubleto
 adminNick: erp-hubleto
 adminEmail: erp-hubleto@example.com
 adminPassword: erp
+
+# miscellaneous
+generateDemoData: true
 
 # Uncomment following lines if you want to have full control over
 # what apps will be installed. Example below installs minimal set
