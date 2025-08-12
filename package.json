@@ -1,0 +1,31 @@
+{
+  "name": "@hubleto/project",
+  "version": "0.14",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx @tailwindcss/cli -i ./theme.twcss -o ./assets/compiled/css/main.css",
+    "watch-css": "npx @tailwindcss/cli --watch -i ./theme.twcss -o ./assets/compiled/css/main.css",
+    "analyse-php": "vendor/bim/phpstan analyse",
+    "build-js": "npx webpack --mode development",
+    "watch-js": "npx webpack --watch --mode development",
+    "build": "npx webpack --mode development && npx @tailwindcss/cli -m -i ./theme.twcss -o ./assets/compiled/css/main.css",
+    "build:prod": "npx webpack --mode production && npx @tailwindcss/cli -m -i ./theme.twcss -o ./assets/compiled/css/main.css"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@hubleto/react-ui": "^1.0",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "jquery": "^3.7.1",
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^4.1.11",
+    "webpack": "^5.101.0",
+    "webpack-cli": "^6.0.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
