@@ -44,6 +44,7 @@ If you want to contribute, you will need to:
 ```
 composer create-project hubleto/erp . dev-main
 ./bin/make-dev /var/www/hubleto
+php hubleto init
 ```
 
 
