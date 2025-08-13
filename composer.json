@@ -22,5 +22,9 @@
             "HubletoProject\\Report\\": "src/reports",
             "HubletoProject\\Dependency\\": "src/dependencies"
         }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "*",
+        "phpunit/phpunit": "12"
     }
 }
