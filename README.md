@@ -22,15 +22,19 @@ The other underlying repositories are:
 
 `hubleto/erp` (this repository) is a package for `composer create-project` command which installs the `hubleto/main` and adds some other files for easier customization after installation.
 
-**Complete Hubleto suite is freely available. Simply download, install and use it for your commercial projects.**
+**Hubleto is free also for your commercial projects.**
 
-> **QUICK TIP:** Do you want to integrate Hubleto with ChatGPT? Check this article: https://developer.hubleto.com/v0/advanced-development/miscellaneous/hubleto-chatgpt
+## How to customize
+
+If you want to customize your Hubleto installation, start by creating your new Hubleto app.
+
+```php hubleto create app MyFirstApp```
 
 ## How to contribute
 
-If you want to contribute, you will need to:
+If you want to contribute, you will need to **for all Hubleto repositories** and **recreate the project folder to use these forks**.
 
-## Fork all Hubleto repositories
+### Fork all Hubleto repositories
 
   * https://github.com/hubleto/framework
   * https://github.com/hubleto/apps
@@ -39,16 +43,14 @@ If you want to contribute, you will need to:
 
 > **IMPORTANT** Fork all repositories into one folder, e.g. /var/www/hubleto.
 
-## Re-create your Hubleto folder
+### Re-create your Hubleto folder
 
 ```
 composer create-project hubleto/erp . dev-main
-./bin/make-dev /var/www/hubleto
+./bin/use-local-repositories /var/www/hubleto
+npm run build
 php hubleto init
 ```
-
-
-## Production build
 
 ## We are looking for partners
 
@@ -65,4 +67,4 @@ Do not hesitate and contact us via [LinkedIn](https://www.linkedin.com/company/1
   * https://help.hubleto.com - user guide for Hubleto
   * https://www.hubleto.com - a presentation website
   * https://community.hubleto.com - a discussion forum about everything related to Hubleto
-  * https://www.hubleto.com/dem - try demo
+  * https://www.hubleto.com/demo - try demo

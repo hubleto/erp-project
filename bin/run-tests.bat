@@ -1,0 +1,1 @@
+%~dp0..\vendor\bin\phpunit --bootstrap boot.php %~dp0..\vendor\hubleto\main\tests %~dp0..\tests
