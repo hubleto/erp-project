@@ -3,7 +3,7 @@
 This is the repository for installation of production-ready Hubleto ERP. To install do following:
 
   * `cd YOUR_HUBLETO_ERP_FOLDER`
-  * `composer create-project hubleto/erp .`
+  * `composer create-project hubleto/erp . --no-dev`
   * `php hubleto init`
 
 🌟 Star if you like it!
@@ -26,9 +26,28 @@ The other underlying repositories are:
 
 > **QUICK TIP:** Do you want to integrate Hubleto with ChatGPT? Check this article: https://developer.hubleto.com/v0/advanced-development/miscellaneous/hubleto-chatgpt
 
-## Become contributor
+## How to contribute
 
-If you want to contribute, check https://github.com/hubleto/dev for instructions how to install the development environment.
+If you want to contribute, you will need to:
+
+## Fork all Hubleto repositories
+
+  * https://github.com/hubleto/framework
+  * https://github.com/hubleto/apps
+  * https://github.com/hubleto/main
+  * https://github.com/hubleto/react-ui
+
+> **IMPORTANT** Fork all repositories into one folder, e.g. /var/www/hubleto.
+
+## Re-create your Hubleto folder
+
+```
+composer create-project hubleto/erp . dev-main
+./bin/make-dev /var/www/hubleto
+```
+
+
+## Production build
 
 ## We are looking for partners
 

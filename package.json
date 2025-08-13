@@ -10,7 +10,8 @@
     "build-js": "npx webpack --mode development",
     "watch-js": "npx webpack --watch --mode development",
     "build": "npx webpack --mode development && npx @tailwindcss/cli -m -i ./theme.twcss -o ./assets/compiled/css/main.css",
-    "build:prod": "npx webpack --mode production && npx @tailwindcss/cli -m -i ./theme.twcss -o ./assets/compiled/css/main.css"
+    "build:prod": "npx webpack --mode production && npx @tailwindcss/cli -m -i ./theme.twcss -o ./assets/compiled/css/main.css",
+    "release": "./vendor/bin/hubleto-release"
   },
   "dependencies": {
     "@babel/preset-react": "^7.27.1",
