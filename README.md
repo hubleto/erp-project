@@ -32,18 +32,20 @@ If you want to customize your Hubleto installation, start by creating your new H
 
 ## How to contribute
 
-If you want to contribute, you will need to **for all Hubleto repositories** and **recreate the project folder to use these forks**.
+If you want to contribute, you will need to **fork all Hubleto repositories** and **recreate the project folder to use these forks**.
 
 ### Fork all Hubleto repositories
+
+> **IMPORTANT** Fork all repositories into one folder, e.g. /var/www/hubleto.
 
   * https://github.com/hubleto/framework
   * https://github.com/hubleto/apps
   * https://github.com/hubleto/main
   * https://github.com/hubleto/react-ui
 
-> **IMPORTANT** Fork all repositories into one folder, e.g. /var/www/hubleto.
-
 ### Re-create your Hubleto folder
+
+> **IMPORTANT** Change `/var/www/hubleto` in commands below to path to your folder with forks.
 
 ```
 composer create-project hubleto/erp . dev-main
@@ -52,13 +54,13 @@ npm run build
 php hubleto init
 ```
 
-## We are looking for partners
+## Become our partner
 
 Hubleto is a community project and so it needs your help. We provide complete Hubleto code for free and maintain its development.
 
-We will be very happy to get in touch with any company or individuals, willing to act as reselling partner or consultant.
+We will be very happy to get in touch with any company or individuals, willing to act as reseller or consultant.
 
-Do not hesitate and contact us via [LinkedIn](https://www.linkedin.com/company/106117849/admin/dashboard/) or [Reddit](https://www.reddit.com/r/hubleto/).
+Do not hesitate and contact us via [LinkedIn](https://www.linkedin.com/company/hubleto) or [Reddit](https://www.reddit.com/r/hubleto).
 
 ## See also
 
