@@ -15,9 +15,9 @@ dbCodepage: utf8mb4
 accountFullName: Hubleto Erp
 adminName: ERP
 adminFamilyName: Hubleto
-adminNick: erp-hubleto
-adminEmail: erp-hubleto@example.com
-adminPassword: erp
+adminNick: admin
+adminEmail: admin@example.com
+adminPassword: admin
 packagesToInstall: crm,marketing,sales,supply-chain,e-commerce,finance
 
 ### Miscellaneous
