@@ -1,0 +1,52 @@
+### Project location
+# rewriteBase: /hubleto-erp/
+# projectUrl: http://localhost/hubleto-erp
+# srcUrl: http://localhost/hubleto-erp/vendor/hubleto/main
+# assetsUrl: http://localhost/hubleto-erp/assets
+
+### Database connection
+dbHost: localhost
+dbUser: root
+dbPassword: ''
+dbName: hbl_erp
+dbCodepage: utf8mb4
+
+### Initial account access
+accountFullName: Hubleto DEV
+adminName: DEV
+adminFamilyName: Hubleto
+adminNick: admin
+adminEmail: admin@example.com
+adminPassword: admin
+packagesToInstall: crm,marketing,sales,supply-chain,e-commerce,finance,developer
+
+### Miscellaneous
+generateDemoData: true
+noPrompt: true
+
+### Apps to be installed
+# Uncomment following lines if you want to have full control over what
+# apps will be installed. Example below installs minimal set of apps.
+# CAUTION: order of the apps is important
+# appsToInstall:
+#   HubletoApp\Community\Settings: []
+#   HubletoApp\Community\Tools: []
+#   HubletoApp\Community\Desktop: []
+#   HubletoApp\Community\Usage: []
+
+### Extra config parameters
+# Uncomment following lines if you want to customize look & feel
+# of your Hubleto
+# extraConfigEnv:
+#   uiTheme: green-orange
+#   logoUrl: assets/custom/images/my-hubleto.png
+#   welcomeSplashImageUrl: assets/custom/images/my-hubleto.png
+#   availableLanguages: []
+#   appTitle: My Hubleto - Fully customized Hubleto
+#   sidebarGroups:
+#     crm:
+#       title: CRM
+#       icon: fas fa-id-card-clip
+#     maintenance:
+#       title: Maintenance
+#       icon: fas fa-cog
