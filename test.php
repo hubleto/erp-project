@@ -7,5 +7,3 @@ require_once(__DIR__ . "/boot.php");
 $main->setParam('login', 'admin@example.com');
 $main->setParam('password', 'admin');
 $main->auth->auth();
-var_dump($main->auth->getUser());
-exit("a");
