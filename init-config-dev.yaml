@@ -18,7 +18,7 @@ adminFamilyName: Hubleto
 adminNick: admin
 adminEmail: admin@example.com
 adminPassword: admin
-packagesToInstall: crm,marketing,sales,supply-chain,e-commerce,finance,developer
+packagesToInstall: crm,marketing,sales,projects,supply-chain,e-commerce,finance,developer
 
 ### Miscellaneous
 generateDemoData: true
