@@ -1,0 +1,14 @@
+@config "./tailwind.config.js";
+
+@layer theme, base, components, primereact, hubleto-framework, utilities, hubleto-main;
+
+@import "tailwindcss";
+@import "./vendor/hubleto/framework/src/Assets/Css/desktop.css";
+@import "./vendor/hubleto/framework/src/Assets/Css/components.css";
+@import "./vendor/hubleto/framework/src/Assets/Css/responsive.css";
+@import "./vendor/hubleto/framework/src/Assets/Css/primereact.css";
+@import "./vendor/hubleto/framework/src/Assets/Css/skin.css";
+@import "./vendor/hubleto/framework/src/Assets/Css/color-scales.css";
+
+@import "./vendor/hubleto/main/src/Main.twcss";
+
