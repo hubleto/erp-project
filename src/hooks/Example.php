@@ -23,7 +23,6 @@ class Example extends \HubletoMain\Hook
     if ($event == 'SEE-LIST-OF-AVAILABLE-TRIGGERS-IN-DEVELOPER-GUIDE') {
       // Do anything you want here.
       // Notes:
-      //   - $this->main == reference to Hubleto's main object
       //   - structure of $args may vary depending on the event
       //   - you can find available events on https://developer.hubleto.com
       //     or simply search in the source code where method "hooks->run()" is
