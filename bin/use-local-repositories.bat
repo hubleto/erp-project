@@ -1,5 +1,5 @@
 rem hubleto/erp
-call composer config repositories.hubleto/erp path %1\main
+call composer config repositories.hubleto/erp path %1\erp
 call composer require hubleto/erp dev-main
 
 rem hubleto/framework
