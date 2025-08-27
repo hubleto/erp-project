@@ -1,5 +1,5 @@
 @config "./tailwind.config.js";
 @layer theme, base, components, primereact, hubleto-framework, utilities, hubleto-main;
 @import "tailwindcss";
-@import "./vendor/hubleto/main/src-ui/Main.twcss";
+@import "./vendor/hubleto/erp/src-ui/Main.twcss";
 

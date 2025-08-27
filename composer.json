@@ -5,8 +5,8 @@
     "description": "Production-ready Hubleto ERP.",
     "homepage": "https://www.hubleto.com",
     "support": {
-        "issues": "https://github.com/hubleto/main/issues",
-        "source": "https://github.com/hubleto/main"
+        "issues": "https://github.com/hubleto/erp/issues",
+        "source": "https://github.com/hubleto/erp"
     },
     "keywords": ["hubleto", "crm", "erp", "application", "hub"],
     "require": {

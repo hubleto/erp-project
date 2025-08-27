@@ -1,7 +1,7 @@
 ### Project location
 # rewriteBase: /hubleto-erp/
 # projectUrl: http://localhost/hubleto-erp
-# srcUrl: http://localhost/hubleto-erp/vendor/hubleto/main
+# srcUrl: http://localhost/hubleto-erp/vendor/hubleto/erp
 # assetsUrl: http://localhost/hubleto-erp/assets
 
 ### Database connection

@@ -1,10 +1,6 @@
-rem hubleto/main
-call composer config repositories.hubleto/main path %1\main
-call composer require hubleto/main dev-main
-
-rem hubleto/apps
-call composer config repositories.hubleto/apps path %1\apps
-call composer require hubleto/apps dev-main
+rem hubleto/erp
+call composer config repositories.hubleto/erp path %1\main
+call composer require hubleto/erp dev-main
 
 rem hubleto/framework
 call composer config repositories.hubleto/framework path %1\framework

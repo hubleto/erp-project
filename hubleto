@@ -7,4 +7,4 @@ if (is_file(__DIR__ . '/ConfigEnv.php')) require_once(__DIR__ . '/ConfigEnv.php'
 $config['projectFolder'] = __DIR__;
 
 require_once('vendor/autoload.php');
-require_once('vendor/hubleto/main/hubleto');
+require_once('vendor/hubleto/erp/hubleto');

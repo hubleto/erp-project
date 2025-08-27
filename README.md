@@ -3,7 +3,7 @@
 This is the repository for installation of production-ready Hubleto ERP. To install do following:
 
   * `cd YOUR_HUBLETO_ERP_FOLDER`
-  * `composer create-project hubleto/erp . --no-dev`
+  * `composer create-project hubleto/erp-project . --no-dev`
   * `php hubleto init`
 
 🌟 Star if you like it!
@@ -17,10 +17,9 @@ The other underlying repositories are:
   * `hubleto/framework` - PHP-based low level MVC framework
   * `hubleto/react-ui` - React-based UI using other libraries like `primereact` but modified and tailored for Hubleto ERP
   * `hubleto/terminal` - a simple command-line tool for PHP
-  * `hubleto/apps` - set of freely available apps covering features like CRM, supply-chain or project management
-  * `hubleto/main` - package combining everything together into a Hubleto ERP solution.
+  * `hubleto/erp` - package combining everything together into a Hubleto ERP solution.
 
-`hubleto/erp` (this repository) is a package for `composer create-project` command which installs the `hubleto/main` and adds some other files for easier customization after installation.
+`hubleto/erp` (this repository) is a package for `composer create-project` command which installs the `hubleto/erp` and adds some other files for easier customization after installation.
 
 **Hubleto is free also for your commercial projects.**
 
@@ -39,8 +38,7 @@ If you want to contribute, you will need to **fork all Hubleto repositories** an
 > **IMPORTANT** Fork all repositories into one folder, e.g. /var/www/hubleto.
 
   * https://github.com/hubleto/framework
-  * https://github.com/hubleto/apps
-  * https://github.com/hubleto/main
+  * https://github.com/hubleto/erp
   * https://github.com/hubleto/react-ui
 
 ### Re-create your Hubleto folder
@@ -48,7 +46,7 @@ If you want to contribute, you will need to **fork all Hubleto repositories** an
 > **IMPORTANT** Change `/var/www/hubleto` in commands below to path to your folder with forks.
 
 ```
-composer create-project hubleto/erp . dev-main
+composer create-project hubleto/erp-project . dev-main
 ./bin/use-local-repositories /var/www/hubleto
 npm run build
 php hubleto init
@@ -64,7 +62,7 @@ Do not hesitate and contact us via [LinkedIn](https://www.linkedin.com/company/h
 
 ## See also
 
-  * https://github.com/hubleto/main - the 'main' repository for Hubleto
+  * https://github.com/hubleto/erp - the 'main' repository for Hubleto
   * https://developer.hubleto.com - developer guide for Hubleto
   * https://help.hubleto.com - user guide for Hubleto
   * https://www.hubleto.com - a presentation website

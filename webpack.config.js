@@ -19,8 +19,8 @@ module.exports = (env, arg) => {
   return {
     entry: {
       main: [
-        './vendor/hubleto/main/src-ui/Main',
-        ...loadEntriesFromRepository(path.resolve(__dirname, 'vendor/hubleto/main/apps')),
+        './vendor/hubleto/erp/src-ui/Main',
+        ...loadEntriesFromRepository(path.resolve(__dirname, 'vendor/hubleto/erp/apps')),
         ...loadEntriesFromRepository(path.resolve(__dirname, 'src/apps')),
       ],
     },
@@ -51,7 +51,7 @@ module.exports = (env, arg) => {
         '@hubleto/ui/core': path.resolve(__dirname, 'vendor/hubleto/framework/src/Components/Core'),
         '@hubleto/ui/ext': path.resolve(__dirname, 'vendor/hubleto/framework/src/Components/Ext'),
         '@hubleto/framework': path.resolve(__dirname, 'vendor/hubleto/framework'),
-        '@hubleto/apps': path.resolve(__dirname, 'vendor/hubleto/main/apps'),
+        '@hubleto/apps': path.resolve(__dirname, 'vendor/hubleto/erp/apps'),
       },
     }
   }
