@@ -1,6 +1,6 @@
 {
     "name": "hubleto/erp-project",
-    "version": "0.16.2",
+    "version": "0.17",
     "license": "AGPL-3.0-or-later",
     "description": "Production-ready Hubleto ERP.",
     "homepage": "https://www.hubleto.com",
@@ -10,8 +10,8 @@
     },
     "keywords": ["hubleto", "crm", "erp", "application", "hub"],
     "require": {
-        "hubleto/framework": "0.16.*",
-        "hubleto/erp": "0.16.*",
+        "hubleto/framework": "0.17.*",
+        "hubleto/erp": "0.17.*",
         "hubleto/assets": "*"
     },
     "autoload": {
