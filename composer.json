@@ -12,12 +12,11 @@
     "require": {
         "hubleto/framework": "0.16.*",
         "hubleto/main": "0.16.*",
-        "hubleto/apps": "0.16.*",
         "hubleto/assets": "*"
     },
     "autoload": {
         "psr-4": {
-            "HubletoApp\\Custom\\": "src/apps",
+            "Hubleto\\App\\Custom\\": "src/apps",
             "HubletoProject\\Hook\\": "src/hooks",
             "HubletoProject\\Cron\\": "src/crons",
             "HubletoProject\\Report\\": "src/reports",

@@ -8,7 +8,7 @@
 
 namespace HubletoProject\Hook;
 
-class ViewRedirects extends \HubletoMain\Hook
+class ViewRedirects extends \Hubleto\Erp\Hook
 {
 
   // Uncomment and modify the `run()` method to customize
@@ -19,7 +19,7 @@ class ViewRedirects extends \HubletoMain\Hook
   //   if ($event == 'controller:set-view') {
   //     list($controller, $view, $viewParams) = $args;
   //     switch ($view) {
-  //       case '@HubletoApp:Community:Settings/Dashboard.twig': $controller->setView('@HubletoApp:Custom:Settings/Dashboard.twig'); break;
+  //       case '@Hubleto:App:Community:Settings/Dashboard.twig': $controller->setView('@Hubleto:App:Custom:Settings/Dashboard.twig'); break;
   //     }
   //   }
   // }
