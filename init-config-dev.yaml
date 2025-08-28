@@ -1,14 +1,14 @@
 ### Project location
-# rewriteBase: /hubleto-erp/
-# projectUrl: http://localhost/hubleto-erp
-# srcUrl: http://localhost/hubleto-erp/vendor/hubleto/erp
-# assetsUrl: http://localhost/hubleto-erp/assets
+rewriteBase: /hubleto-dev/
+projectUrl: http://localhost/{{ rewriteBase }}
+srcUrl: http://localhost/{{ rewriteBase }}/vendor/hubleto/erp
+assetsUrl: http://localhost/{{ rewriteBase }}/vendor/hubleto/assets
 
 ### Database connection
 dbHost: localhost
 dbUser: root
 dbPassword: ''
-dbName: hbl_erp
+dbName: hbl_dev
 dbCodepage: utf8mb4
 
 ### Initial account access
@@ -16,8 +16,8 @@ accountFullName: Hubleto DEV
 adminName: DEV
 adminFamilyName: Hubleto
 adminNick: admin
-adminEmail: admin@example.com
-adminPassword: admin
+adminEmail: dev@example.com
+adminPassword: dev
 packagesToInstall: crm,marketing,sales,projects,supply-chain,e-commerce,finance,developer
 
 ### Miscellaneous
