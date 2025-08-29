@@ -16,5 +16,5 @@ require_once(__DIR__ . "/ConfigEnv.php");
 require_once("vendor/autoload.php");
 
 // boot
-$main = new \Hubleto\Erp\Loader($config);
-$main->init();
+$hubleto = new \Hubleto\Erp\Loader($config);
+$hubleto->init();
