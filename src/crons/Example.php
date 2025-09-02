@@ -15,7 +15,7 @@ class Example extends \Hubleto\Erp\Cron
 
   public function run(): void
   {
-    $this->getLogger()->info("Sample cron started.");
+    $this->logger()->info("Sample cron started.");
   }
 
 }
