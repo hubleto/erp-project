@@ -12,7 +12,9 @@
     "require": {
         "hubleto/framework": "0.18.*",
         "hubleto/erp": "0.18.*",
-        "hubleto/assets": "0.18.*"
+        "hubleto/assets": "0.18.*",
+        "defuse/php-encryption": "2.*",
+        "ddeboer/imap": "1.*"
     },
     "autoload": {
         "psr-4": {
