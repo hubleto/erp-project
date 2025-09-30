@@ -12,7 +12,9 @@
     "require": {
         "hubleto/framework": "0.20.*",
         "hubleto/erp": "0.20.*",
-        "hubleto/assets": "0.20.*"
+        "hubleto/assets": "0.20.*",
+        "dompdf/dompdf": "^3",
+        "fakerphp/faker": "^1"
     },
     "autoload": {
         "psr-4": {
