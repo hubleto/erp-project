@@ -10,5 +10,9 @@ rem hubleto/assets
 call composer config repositories.hubleto/assets path %1\assets
 call composer require hubleto/assets dev-main
 
+rem hubleto/enterprise
+call composer config repositories.hubleto/enterprise path %1\enterprise
+call composer require hubleto/enterprise dev-main
+
 rem hubleto/react-ui
 call npm install file:%1\react-ui
