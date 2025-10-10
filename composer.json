@@ -12,9 +12,7 @@
     "require": {
         "hubleto/framework": "0.22.*",
         "hubleto/erp": "0.22.*",
-        "hubleto/assets": "0.22.*",
-        "dompdf/dompdf": "^3",
-        "fakerphp/faker": "^1"
+        "hubleto/assets": "0.22.*"
     },
     "autoload": {
         "psr-4": {
@@ -27,6 +25,8 @@
     },
     "require-dev": {
         "phpstan/phpstan": "*",
-        "phpunit/phpunit": "12"
+        "phpunit/phpunit": "12",
+        "fakerphp/faker": "^1",
+        "dompdf/dompdf": "^3"
     }
 }
