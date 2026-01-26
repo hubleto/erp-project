@@ -17,7 +17,7 @@
     "autoload": {
         "psr-4": {
             "Hubleto\\App\\Custom\\": "src/apps",
-            "HubletoProject\\Hook\\": "src/hooks",
+            "HubletoProject\\EventListeners\\": "src/event-listeners",
             "HubletoProject\\Cron\\": "src/crons",
             "HubletoProject\\Report\\": "src/reports",
             "HubletoProject\\Dependency\\": "src/dependencies"
