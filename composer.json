@@ -22,5 +22,6 @@
             "HubletoProject\\Report\\": "src/reports",
             "HubletoProject\\Dependency\\": "src/dependencies"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
