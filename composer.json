@@ -22,11 +22,5 @@
             "HubletoProject\\Report\\": "src/reports",
             "HubletoProject\\Dependency\\": "src/dependencies"
         }
-    },
-    "require-dev": {
-        "phpstan/phpstan": "*",
-        "phpunit/phpunit": "12",
-        "fakerphp/faker": "^1",
-        "dompdf/dompdf": "^3"
     }
 }
