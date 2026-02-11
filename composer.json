@@ -12,7 +12,14 @@
     "require": {
         "hubleto/framework": "0.27.*",
         "hubleto/erp": "0.27.*",
-        "hubleto/assets": "0.27.*"
+        "hubleto/assets": "0.27.*",
+
+        "hubleto/pay-by-square-encoder": "^1",
+        "defuse/php-encryption": "^2",
+        "ddeboer/imap": "^1",
+        "endroid/qr-code": "^6",
+        "dompdf/dompdf": "^3",
+        "phpmailer/phpmailer": "^6"
     },
     "autoload": {
         "psr-4": {
