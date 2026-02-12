@@ -30,6 +30,32 @@ module.exports = (env, arg) => {
       filename: '[name].js',
       clean: true
     },
+    optimization: {
+      splitChunks: {
+        cacheGroups: {
+          apps: {
+            test: /[\\/]apps[\\/]/,
+            name: 'apps',
+            chunks: 'all'
+          },
+          react_ui_core: {
+            test: /[\\/]core[\\/]/,
+            name: 'react-ui-core',
+            chunks: 'all'
+          },
+          react_ui_ext: {
+            test: /[\\/]ext[\\/]/,
+            name: 'react-ui-ext',
+            chunks: 'all'
+          },
+          react_ui_vendor: {
+            test: /[\\/]node_modules[\\/]/,
+            name: 'react-ui-vendor',
+            chunks: 'all'
+          },
+        }
+      },
+    },
     module: {
       rules: [
         {
