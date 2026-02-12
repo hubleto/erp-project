@@ -23,15 +23,9 @@ The other underlying repositories are:
 
 **Hubleto is free also for your commercial projects.**
 
-## Create your app
-
-If you want to customize your Hubleto installation, start by creating your new Hubleto app.
-
-```php hubleto create app MyFirstApp```
-
 ## Full development environment
 
-If you want to develop custom Hubleto apps for your project (event commercial), you must tweak a little bit the folder created by `composer create-project`. Follow steps described below.
+If you want to develop custom Hubleto apps for your project, you must tweak a little bit the folder created by `composer create-project`. Follow steps described below.
 
 ### Prepare assets
 
@@ -53,8 +47,7 @@ Install and compile Javascript libraries and CSS files:
 ```
 cd YOUR_PROJECT_FOLDER
 npm install
-npm run build-js
-npm run build-css
+npm run build
 ```
 
 ## How to contribute
