@@ -19,7 +19,7 @@ module.exports = (env, arg) => {
   return {
     entry: {
       main: [
-        './vendor/hubleto/erp/src-ui/Main',
+        './assets/src/Main',
         ...loadEntriesFromRepository(path.resolve(__dirname, 'vendor/hubleto/erp/apps')),
         ...loadEntriesFromRepository(path.resolve(__dirname, 'src/apps')),
       ],

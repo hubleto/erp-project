@@ -16,18 +16,46 @@ The other underlying repositories are:
 
   * `hubleto/framework` - PHP-based low level MVC framework
   * `hubleto/react-ui` - React-based UI using other libraries like `primereact` but modified and tailored for Hubleto ERP
-  * `hubleto/terminal` - a simple command-line tool for PHP
+  * `hubleto/assets` - precompiled default assets
   * `hubleto/erp` - package combining everything together into a Hubleto ERP solution.
 
 `hubleto/erp` (this repository) is a package for `composer create-project` command which installs the `hubleto/erp` and adds some other files for easier customization after installation.
 
 **Hubleto is free also for your commercial projects.**
 
-## How to customize
+## Create your app
 
 If you want to customize your Hubleto installation, start by creating your new Hubleto app.
 
 ```php hubleto create app MyFirstApp```
+
+## Full development environment
+
+If you want to develop custom Hubleto apps for your project (event commercial), you must tweak a little bit the folder created by `composer create-project`. Follow steps described below.
+
+### Prepare assets
+
+Copy the default assets from `vendor/hubleto/assets` to your project folder:
+
+```
+cd YOUR_PROJECT_FOLDER
+mkdir assets
+cp -r vendor/hubleto/assets/css assets/css
+cp -r vendor/hubleto/assets/fonts assets/fonts
+cp -r vendor/hubleto/assets/images assets/images
+cp -r vendor/hubleto/assets/src assets/src
+```
+
+### Compile Javascript and CSS
+
+Install and compile Javascript libraries and CSS files:
+
+```
+cd YOUR_PROJECT_FOLDER
+npm install
+npm run build-js
+npm run build-css
+```
 
 ## How to contribute
 
