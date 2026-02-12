@@ -6,26 +6,13 @@ This is the repository for installation of production-ready Hubleto ERP. To inst
   * `composer create-project hubleto/erp-project . --no-dev`
   * `php hubleto init`
 
-🌟 Star if you like it!
+🌟 Enjoy Hubleto and star if you like it!
 
 <img src="docs/images/01.jpg" width="200px"></img>
 
-**Hubleto** is a community project, a series of repositories resulting in an opensource ERP/CRM package (this `hubleto/erp` repository).
+## Use Hubleto in your projects
 
-The other underlying repositories are:
-
-  * `hubleto/framework` - PHP-based low level MVC framework
-  * `hubleto/react-ui` - React-based UI using other libraries like `primereact` but modified and tailored for Hubleto ERP
-  * `hubleto/assets` - precompiled default assets
-  * `hubleto/erp` - package combining everything together into a Hubleto ERP solution.
-
-`hubleto/erp` (this repository) is a package for `composer create-project` command which installs the `hubleto/erp` and adds some other files for easier customization after installation.
-
-**Hubleto is free also for your commercial projects.**
-
-## Full development environment
-
-If you want to develop custom Hubleto apps for your project, you must tweak a little bit the folder created by `composer create-project`. Follow steps described below.
+If you want to use Hubleto for your project and **also need to develop your custom apps**, you must tweak a little bit the folder created by `composer create-project`. Follow steps described below.
 
 ### Prepare assets
 
@@ -50,9 +37,20 @@ npm install
 npm run build
 ```
 
-## How to contribute
+### Create first *custom* app
 
-If you want to contribute, you will need to **fork all Hubleto repositories** and **recreate the project folder to use these forks**.
+Create first custom app to your project:
+
+```
+cd YOUR_PROJECT_FOLDER
+php hubleto create app MyFirstApp
+php hubleto create model MyFirstApp MyFirstModel
+php hubleto create mvc MyFirstApp MyFirstModel
+```
+
+## Contribute to Hubleto core
+
+Contributing to the Hubleto core is the best way how to support us. To do so, **fork all Hubleto repositories** and **recreate the project folder to use these forks**.
 
 ### Fork all Hubleto repositories
 
@@ -73,7 +71,7 @@ npm run build
 php hubleto init
 ```
 
-## Become our partner
+## Support us
 
 Hubleto is a community project and so it needs your help. We provide complete Hubleto code for free and maintain its development.
 
