@@ -37,7 +37,7 @@ npm install
 npm run build
 ```
 
-### Create first *custom* app
+### Initialize your Hubleto and create first *custom* app
 
 Create first custom app to your project:
 
@@ -46,6 +46,8 @@ cd YOUR_PROJECT_FOLDER
 php hubleto create app MyFirstApp
 php hubleto create model MyFirstApp MyFirstModel
 php hubleto create mvc MyFirstApp MyFirstModel
+npm run build-js
+npm run build-css
 ```
 
 ## Contribute to Hubleto core

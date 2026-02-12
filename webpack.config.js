@@ -1,18 +1,19 @@
 const path = require('path');
 const fs = require('fs');
 
-function loadEntriesFromRepository(folder) {
-  let entries = [];
+function findHubletoAppsInRepository(folder) {
+  let apps = [];
   if (fs.lstatSync(folder).isDirectory()) {
     fs.readdirSync(folder).forEach(function(app){
       const stat = fs.statSync(folder + '/' + app);
       const loaderEntry = folder + '/' + app + '/Loader';
       if (stat && stat.isDirectory() && fs.existsSync(loaderEntry + '.tsx')) {
-        entries.push(loaderEntry);
+        apps.push(loaderEntry);
       }
     });
   }
-  return entries;
+  console.log('Found following apps in `' + folder + '`', apps);
+  return apps;
 }
 
 module.exports = (env, arg) => {
@@ -20,8 +21,8 @@ module.exports = (env, arg) => {
     entry: {
       main: [
         './assets/src/Main',
-        ...loadEntriesFromRepository(path.resolve(__dirname, 'vendor/hubleto/erp/apps')),
-        ...loadEntriesFromRepository(path.resolve(__dirname, 'src/apps')),
+        ...findHubletoAppsInRepository(path.resolve(__dirname, 'vendor/hubleto/erp/apps')),
+        ...findHubletoAppsInRepository(path.resolve(__dirname, 'src/apps')),
       ],
     },
     output: {
