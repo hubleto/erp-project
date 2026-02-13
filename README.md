@@ -56,29 +56,6 @@ npm run build-css
 
 You app should be available in your Hubleto now.
 
-## Contribute to Hubleto core
-
-Contributing to the Hubleto core is the best way how to support us. To do so, **fork all Hubleto repositories** and **recreate the project folder to use these forks**.
-
-### Fork all Hubleto repositories
-
-> **IMPORTANT** Fork all repositories into one folder, e.g. /var/www/hubleto.
-
-  * https://github.com/hubleto/framework
-  * https://github.com/hubleto/erp
-  * https://github.com/hubleto/react-ui
-
-### Re-create your Hubleto folder
-
-> **IMPORTANT** Change `/var/www/hubleto` in commands below to path to your folder with forks.
-
-```
-composer create-project hubleto/erp-project . dev-main
-./bin/use-local-repositories /var/www/hubleto
-npm run build
-php hubleto init
-```
-
 ## Support us
 
 Hubleto is a community project and so it needs your help. We provide complete Hubleto code for free and maintain its development.
