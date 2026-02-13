@@ -14,47 +14,47 @@ This is the repository for installation of production-ready Hubleto ERP. To inst
 
 If you want to use Hubleto for your project and **also need to develop your custom apps**, you must tweak a little bit the folder created by `composer create-project`. Follow steps described below.
 
-### Prepare assets
+  1. **Prepare assets**
 
-Copy the default assets from `vendor/hubleto/assets` to your project folder:
+      Copy the default assets from `vendor/hubleto/assets` to your project folder:
 
-```
-cd YOUR_PROJECT_FOLDER
-mkdir assets
-cp -r vendor/hubleto/assets/css assets/css
-cp -r vendor/hubleto/assets/fonts assets/fonts
-cp -r vendor/hubleto/assets/images assets/images
-cp -r vendor/hubleto/assets/src assets/src
-cp -r vendor/hubleto/assets/jquery-3.5.1.js assets/jquery-3.5.1.js
-```
+      ```
+      cd YOUR_PROJECT_FOLDER
+      mkdir assets
+      cp -r vendor/hubleto/assets/css assets/css
+      cp -r vendor/hubleto/assets/fonts assets/fonts
+      cp -r vendor/hubleto/assets/images assets/images
+      cp -r vendor/hubleto/assets/src assets/src
+      cp -r vendor/hubleto/assets/jquery-3.5.1.js assets/jquery-3.5.1.js
+      ```
 
-### Compile Javascript and CSS
+  2. **Compile Javascript and CSS**
 
-Install and compile Javascript libraries and CSS files:
+      Install and compile Javascript libraries and CSS files:
 
-```
-cd YOUR_PROJECT_FOLDER
-npm install
-npm run build
-```
+      ```
+      cd YOUR_PROJECT_FOLDER
+      npm install
+      npm run build
+      ```
 
-### Initialize your Hubleto and create first *custom* app
+  3. **Initialize your Hubleto and create first *custom* app**
 
-Create first custom app to your project:
+      Create first custom app to your project:
 
-```
-cd YOUR_PROJECT_FOLDER
-php hubleto init
-php hubleto create app MyFirstApp
-php hubleto create model MyFirstApp MyFirstModel
-php hubleto create mvc MyFirstApp MyFirstModel
-npm run build-js
-npm run build-css
-```
+      ```
+      cd YOUR_PROJECT_FOLDER
+      php hubleto init
+      php hubleto create app MyFirstApp
+      php hubleto create model MyFirstApp MyFirstModel
+      php hubleto create mvc MyFirstApp MyFirstModel
+      npm run build-js
+      npm run build-css
+      ```
 
-### Test your new app
+  4. **Test your new app**
 
-You app should be available in your Hubleto now.
+      You app should be available in your Hubleto now.
 
 ## Support us
 
