@@ -12,7 +12,9 @@ This is the repository for installation of production-ready Hubleto ERP. To inst
 
 ## Use Hubleto in your projects
 
-If you want to use Hubleto for your project and **also need to develop your custom apps**, you must tweak a little bit the folder created by `composer create-project`. Follow steps described below.
+If you want to use Hubleto for your project and **also need to develop your custom apps**, you must tweak a little bit the folder created by `composer create-project` to setup the compilation process for Javascript and CSS files which contains the majority of Hubleto's user interface.
+
+Follow steps described below.
 
   1. **Prepare assets**
 
@@ -55,6 +57,8 @@ If you want to use Hubleto for your project and **also need to develop your cust
   4. **Test your new app**
 
       You app should be available in your Hubleto now.
+
+> **TIP FOR ADVANCED DEVELOPERS:** If you want to learn more, check out Hubleto's powerful React-based UI library at https://www.npmjs.com/package/@hubleto/react-ui.
 
 ## Support us
 
