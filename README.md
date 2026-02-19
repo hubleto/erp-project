@@ -16,33 +16,14 @@ If you want to use Hubleto for your project and **also need to develop your cust
 
 Follow steps described below.
 
-  1. **Prepare assets**
-
-      Copy the default assets from `vendor/hubleto/assets` to your project folder:
+  1. **Prepare assets and compile Javascript + CSS**
 
       ```
       cd YOUR_PROJECT_FOLDER
-      mkdir assets
-      cp -r vendor/hubleto/assets/css assets/css
-      cp -r vendor/hubleto/assets/fonts assets/fonts
-      cp -r vendor/hubleto/assets/images assets/images
-      cp -r vendor/hubleto/assets/src assets/src
-      cp -r vendor/hubleto/assets/jquery-3.5.1.js assets/jquery-3.5.1.js
+      ./bin/prepare-assets.sh
       ```
 
-  2. **Compile Javascript and CSS**
-
-      Install and compile Javascript libraries and CSS files:
-
-      ```
-      cd YOUR_PROJECT_FOLDER
-      npm install
-      npm run build
-      ```
-
-  3. **Initialize your Hubleto and create first *custom* app**
-
-      Create first custom app to your project:
+  2. **Initialize your Hubleto and create first *custom* app**
 
       ```
       cd YOUR_PROJECT_FOLDER
@@ -50,13 +31,12 @@ Follow steps described below.
       php hubleto create app MyFirstApp
       php hubleto create model MyFirstApp MyFirstModel
       php hubleto create mvc MyFirstApp MyFirstModel
-      npm run build-js
-      npm run build-css
+      npm run build
       ```
 
   4. **Test your new app**
 
-      You app should be available in your Hubleto now.
+      Open Hubleto in your browser.
 
 > **TIP FOR ADVANCED DEVELOPERS:** If you want to learn more, check out Hubleto's powerful React-based UI library at https://www.npmjs.com/package/@hubleto/react-ui.
 
