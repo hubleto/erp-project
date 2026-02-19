@@ -21,6 +21,7 @@ Follow steps described below.
       ```
       cd YOUR_PROJECT_FOLDER
       ./bin/prepare-assets.sh
+      npm run build
       ```
 
   2. **Initialize your Hubleto and create first *custom* app**
