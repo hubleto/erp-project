@@ -1,6 +1,6 @@
 {
     "name": "hubleto/erp-project",
-    "version": "0.28",
+    "version": "dev-main",
     "license": "AGPL-3.0-or-later",
     "description": "Production-ready Hubleto ERP.",
     "homepage": "https://www.hubleto.com",
@@ -10,9 +10,9 @@
     },
     "keywords": ["hubleto", "crm", "erp", "application", "hub"],
     "require": {
-        "hubleto/framework": "0.28",
-        "hubleto/erp": "0.28",
-        "hubleto/assets": "0.28",
+        "hubleto/framework": "dev-main",
+        "hubleto/erp": "dev-main",
+        "hubleto/assets": "dev-main",
 
         "hubleto/pay-by-square-encoder": "^1",
         "defuse/php-encryption": "^2",
