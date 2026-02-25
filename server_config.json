@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "hubleto-mcp-server": {
+      "command": "php",
+      "args": ["mcp-server.php"]
+    }
+  }
+}
