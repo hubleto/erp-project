@@ -1,1 +1,6 @@
 .vscode
+vendor
+log
+composer.lock
+ConfigEnv.php
+upload
