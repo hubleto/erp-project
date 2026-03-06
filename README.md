@@ -52,8 +52,8 @@ Do not hesitate and contact us via [LinkedIn](https://www.linkedin.com/company/h
 ## See also
 
   * https://github.com/hubleto/erp - the 'main' repository for Hubleto
-  * https://developer.hubleto.com - developer guide for Hubleto
-  * https://help.hubleto.com - user guide for Hubleto
-  * https://www.hubleto.com - a presentation website
-  * https://community.hubleto.com - a discussion forum about everything related to Hubleto
-  * https://www.hubleto.com/demo - try demo
+  * https://developer.hubleto.eu - developer guide for Hubleto
+  * https://help.hubleto.eu - user guide for Hubleto
+  * https://www.hubleto.eu - a presentation website
+  * https://community.hubleto.eu - a discussion forum about everything related to Hubleto
+  * https://www.hubleto.eu/demo - try demo
