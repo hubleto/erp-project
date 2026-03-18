@@ -4,19 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "npx @tailwindcss/cli -i ./assets/src/Main.twcss -o ./assets/compiled/css/main.css",
-    "watch-css": "npx @tailwindcss/cli --watch -i ./assets/src/Main.twcss -o ./assets/compiled/css/main.css",
+    "build-css": "npx @tailwindcss/cli -i ./vendor/hubleto/assets/src/Main.twcss -o ./assets/compiled/css/main.css",
+    "watch-css": "npx @tailwindcss/cli --watch -i ./vendor/hubleto/assets/src/Main.twcss -o ./assets/compiled/css/main.css",
     "analyse-php": "vendor/bim/phpstan analyse",
     "build-js": "npx webpack --mode development",
     "watch-js": "npx webpack --watch --mode development",
-    "build": "npx webpack --mode development && npx @tailwindcss/cli -m -i ./assets/src/Main.twcss -o ./assets/compiled/css/main.css",
-    "build:prod": "npx webpack --mode production && npx @tailwindcss/cli -m -i ./assets/src/Main.twcss -o ./assets/compiled/css/main.css",
+    "build": "npx webpack --mode development && npx @tailwindcss/cli -m -i ./vendor/hubleto/assets/src/Main.twcss -o ./assets/compiled/css/main.css",
+    "build:prod": "npx webpack --mode production && npx @tailwindcss/cli -m -i ./vendor/hubleto/assets/src/Main.twcss -o ./assets/compiled/css/main.css",
     "release": "./vendor/bin/hubleto-release"
   },
   "dependencies": {
     "@babel/preset-react": "^7",
     "@babel/preset-typescript": "^7",
-    "@hubleto/react-ui": "^1",
+    "@hubleto/react-ui": "^1.5.0",
     "babel-loader": "^10",
     "css-loader": "^7",
     "jquery": "^3",
@@ -25,9 +25,11 @@
     "sass-loader": "^16",
     "style-loader": "^4",
     "tailwindcss": "^4",
-    "webpack": "^5",
-    "webpack-cli": "^6"
+    "webpack": "^5"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
 }

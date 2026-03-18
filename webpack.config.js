@@ -20,7 +20,7 @@ module.exports = (env, arg) => {
   return {
     entry: {
       main: [
-        './assets/src/Main',
+        path.resolve(__dirname, 'vendor/hubleto/assets/src/Main'),
         ...findHubletoAppsInRepository(path.resolve(__dirname, 'vendor/hubleto/erp/apps')),
         ...findHubletoAppsInRepository(path.resolve(__dirname, 'src/apps')),
       ],
