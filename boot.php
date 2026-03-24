@@ -13,7 +13,15 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE ^ E_WARNING);
 require_once(__DIR__ . "/ConfigEnv.php");
 
 // load autoloaders
-require_once("vendor/autoload.php");
+require($config['srcFolder'] . "/vendor/autoload.php");
+
+if (is_array($config['appRepositories']) && count($config['appRepositories']) > 0) {
+  foreach ($config['appRepositories'] as $appRepository) {
+    if (is_dir($appRepository)) {
+      require($appRepository . '/autoload.php');
+    }
+  }
+}
 
 // boot
 $hubleto = new \Hubleto\Erp\Loader($config);
