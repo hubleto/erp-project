@@ -1,20 +1,26 @@
 # Hubleto ERP
 
-This is the repository for installation of production-ready Hubleto ERP. To install do following:
+Production-ready Hubleto ERP. Free to use, ready to be customized.
 
-  * `cd YOUR_HUBLETO_ERP_FOLDER`
-  * `composer create-project hubleto/erp-project . --no-dev`
-  * `php hubleto init`
+## Getting started
+
+```
+cd YOUR_HUBLETO_ERP_FOLDER
+composer create-project hubleto/erp-project . --no-dev
+php hubleto init
+```
+
+This will install production-ready Hubleto ERP. You may now customize it by developing your Hubleto apps.
 
 🌟 Enjoy Hubleto and star if you like it!
 
 <img src="docs/images/01.jpg" width="200px"></img>
 
-## Use Hubleto in your projects
+## Install Hubleto React UI
 
-If you want to use Hubleto for your project and **also need to develop your custom apps**, you must tweak a little bit the folder created by `composer create-project` to setup the compilation process for Javascript and CSS files which contain the majority of Hubleto's user interface (check [Hubleto's React-based UI library](https://github.com/hubleto/react-ui) for more information).
+We recommend you to use free Hubleto React UI library to develop rich data management features into your apps. Read more about [Hubleto's React-based UI library](https://github.com/hubleto/react-ui).
 
-Follow steps described below.
+Follow steps described below to install and use Hubleto React UI.
 
   1. **Prepare assets and compile Javascript + CSS**
 
