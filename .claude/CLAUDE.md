@@ -28,6 +28,8 @@ Document contains 2 main chapters:
 
 ## Data Access
 
+### General constraints
+
 - Hubleto wraps Laravel Eloquent into its unique database layer.
 - Hubleto's database layer consists of 2 sub-layers: 
   - Hubeto\Framework\Model for describing the data structure (columns/attributes), UI behavior (see methods *describeColumns*, *describeInputs*, *describeTable* and *describeForm*) and relations.
@@ -35,6 +37,22 @@ Document contains 2 main chapters:
 - Each model must have its appropriate record manager
 - Each model must have UPPERCASE relations for each Lookup column.
 - Each relation must be implemented in record manager, either as eloquent's BelongsTo or HasMany
+
+### Files required for each model
+
+Each model requires following files: "Model", "RecordManager" and initial "Migration". These files are described below.
+
+*Model*
+
+Shall be located in `APP_ROOT/Models/<ModelName>.php` and shall be based on `erp/cli/templates/snippets/Model.php.twig`.
+
+*RecordManager*
+
+Shall be located in `APP_ROOT/Models/RecordManagers/<ModelName>.php` and shall be based on `erp/cli/templates/snippets/ModelRecordManager.php.twig`.
+
+*Migration*
+
+Shall be located in `APP_ROOT/Models/Migrations/<ModelName>_0001.php` and shall be based on `erp/cli/templates/snippets/ModelMigration.php.twig`.
 
 ## Directory structure
 
