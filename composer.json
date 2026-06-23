@@ -10,9 +10,9 @@
     },
     "keywords": ["hubleto", "crm", "erp", "application", "hub"],
     "require": {
-        "hubleto/framework": "1^",
-        "hubleto/erp": "1^",
-        "hubleto/assets": "1^",
+        "hubleto/framework": "^1",
+        "hubleto/erp": "^1",
+        "hubleto/assets": "^1",
 
         "hubleto/pay-by-square-encoder": "^1",
         "defuse/php-encryption": "^2",
