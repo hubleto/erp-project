@@ -41,7 +41,7 @@ npm run build
 If you want to contribute to Hubleto core, follow these steps:
 
   1. Create folder for Hubleto codebase, e.g. `mkdir /var/www/html/hubleto-core`
-  2. Fork `hubleto/erp`, `hubleto/framework`, `hubleto/assets`, `hubleto/react-ui` into `hubleto-core` folder.
+  2. Fork [`hubleto/erp`](erp), [`hubleto/framework`](framework), [`hubleto/assets`](assets), [`hubleto/react-ui`](react-ui) into `hubleto-core` folder.
      *Note: If you have access to enterprise repository, you may fork this as well.*
   4. Symlink these forks by running following commands: `cd /var/www/html/hubleto` + `./bin/setup-dev-env.sh ../hubleto-core`
      *Note: the `setup-dev-env.sh` takes one argument - relative path to your Hubleto codebase*
