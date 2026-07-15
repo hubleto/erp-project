@@ -2,21 +2,27 @@
 
 Production-ready Hubleto ERP. Free to use, ready to be customized.
 
-## Getting started
+## Install
 
-```
-cd YOUR_HUBLETO_ERP_FOLDER
-composer create-project hubleto/erp-project . --no-dev
-php hubleto init
-```
+To install production-ready Hubleto, follow these steps:
 
-This will install production-ready Hubleto ERP. You may now customize it by developing your Hubleto apps.
+  1. Create an empty project folder: `mkdir /var/www/html/hubleto`
+  2. Download Hubleto via composer: `composer create-project hubleto/erp-project /var/www/html/hubleto --no-dev`
+  3. Initialize Hubleto: `php hubleto init`
+
+## Custom apps
+
+To customize your Hubleto, create your `custom` apps:
+
+  1. Create app scaffolding: `php hubleto create app CarRental`
+  2. Create the model: `php hubleto create model CarRental Car`
+  3. Create basic UI: `php hubleto create mvc CarRental Car`
+
+TIP: Check out `claude.md` instructions for better vibe-coding experience.
 
 🌟 Enjoy Hubleto and star if you like it!
 
-<img src="docs/images/01.jpg" width="200px"></img>
-
-## Install Hubleto React UI
+## Custom React UI
 
 We recommend you to use free Hubleto React UI library to develop rich data management features into your apps. Read more about [Hubleto's React-based UI library](https://github.com/hubleto/react-ui).
 
@@ -25,27 +31,24 @@ Follow steps described below to install and use Hubleto React UI.
   1. **Prepare assets and compile Javascript + CSS**
 
       ```
-      cd YOUR_PROJECT_FOLDER
+      cd /var/www/html/hubleto
       ./bin/prepare-assets.sh
       npm run build
-      ```
 
-  2. **Initialize your Hubleto and create first *custom* app**
+## Contribute
 
-      ```
-      cd YOUR_PROJECT_FOLDER
-      php hubleto init
-      php hubleto create app MyFirstApp
-      php hubleto create model MyFirstApp MyFirstModel
-      php hubleto create mvc MyFirstApp MyFirstModel
-      npm run build
-      ```
+If you want to contribute to Hubleto core, follow these steps:
 
-  4. **Test your new app**
+  1. Create folder for Hubleto codebase: `mkdir /var/www/html/hubleto-core`.
+  2. Fork `hubleto/erp`, `hubleto/framework`, `hubleto/assets`, `hubleto/react-ui` into `hubleto-core` folder.
+     *Note: If you have access to enterprise repository, you may fork this as well.*
+  4. Symlink these forks: `cd /var/www/html/hubleto` + `./bin/setup-dev-env.sh ../hubleto-core`
+     *Note: the `setup-dev-env.sh` takes one argument - relative path to your Hubleto codebase*
+  5. Initialize Hubleto: `php hubleto init`
 
-      Open Hubleto in your browser.
+Now, your `http://localhost/hubleto` will be rendered using the codebase in `hubleto-core`.
 
-> **TIP FOR ADVANCED DEVELOPERS:** If you want to learn more, check out Hubleto's powerful React-based UI library at https://www.npmjs.com/package/@hubleto/react-ui.
+> TIP: Use `npm run watch` to automatically compile assets on every change in the UI.
 
 ## Support us
 
