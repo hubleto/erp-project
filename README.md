@@ -1,6 +1,6 @@
-# Hubleto ERP
+# Hubleto
 
-Production-ready Hubleto ERP. Free to use, ready to be customized.
+Free, customizable and self-hosted CRM/ERP.
 
 ## Install
 
