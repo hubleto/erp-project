@@ -18,7 +18,7 @@ To customize your Hubleto, create your `custom` apps:
   2. Create the model: `php hubleto create model CarRental Car`
   3. Create basic UI: `php hubleto create mvc CarRental Car`
 
-> TIP: Check out `CLAUDE.md` instructions for better vibe-coding experience.
+> TIP: Check out `ai/instructions.md` instructions for better vibe-coding experience or instruct your agent to study this.
 
 > TIP: Visit https://developer.hubleto.eu for more details on how to develop custom Hubleto apps.
 
