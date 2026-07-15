@@ -26,9 +26,9 @@ To customize your Hubleto, create your `custom` apps:
 
 ## Create your own React UI compnents
 
-We recommend you to use free Hubleto React UI library to develop rich data management features into your apps. Read more about [Hubleto's React-based UI library](https://github.com/hubleto/react-ui).
+We recommend you to use free [Hubleto React UI](https://github.com/hubleto/react-ui) library to develop rich data management features into your apps.
 
-Run commands below to install and use Hubleto React UI:
+Run commands below to install it:
 
 ```
 cd /var/www/html/hubleto
@@ -40,7 +40,7 @@ npm run build
 
 If you want to contribute to Hubleto core, follow these steps:
 
-  1. Create folder for Hubleto codebase: `mkdir /var/www/html/hubleto-core`
+  1. Create folder for Hubleto codebase, e.g. `mkdir /var/www/html/hubleto-core`
   2. Fork `hubleto/erp`, `hubleto/framework`, `hubleto/assets`, `hubleto/react-ui` into `hubleto-core` folder.
      *Note: If you have access to enterprise repository, you may fork this as well.*
   4. Symlink these forks by running following commands: `cd /var/www/html/hubleto` + `./bin/setup-dev-env.sh ../hubleto-core`
