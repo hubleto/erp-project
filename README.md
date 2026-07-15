@@ -18,31 +18,30 @@ To customize your Hubleto, create your `custom` apps:
   2. Create the model: `php hubleto create model CarRental Car`
   3. Create basic UI: `php hubleto create mvc CarRental Car`
 
-TIP: Check out `claude.md` instructions for better vibe-coding experience.
+> TIP: Check out `CLAUDE.md` instructions for better vibe-coding experience.
 
-🌟 Enjoy Hubleto and star if you like it!
+> 🌟 Enjoy Hubleto and star if you like it!
 
-## Custom React UI
+## Create your own React UI compnents
 
 We recommend you to use free Hubleto React UI library to develop rich data management features into your apps. Read more about [Hubleto's React-based UI library](https://github.com/hubleto/react-ui).
 
-Follow steps described below to install and use Hubleto React UI.
+Run commands below to install and use Hubleto React UI:
 
-  1. **Prepare assets and compile Javascript + CSS**
-
-      ```
-      cd /var/www/html/hubleto
-      ./bin/prepare-assets.sh
-      npm run build
+```
+cd /var/www/html/hubleto
+./bin/prepare-assets.sh
+npm run build
+```
 
 ## Contribute
 
 If you want to contribute to Hubleto core, follow these steps:
 
-  1. Create folder for Hubleto codebase: `mkdir /var/www/html/hubleto-core`.
+  1. Create folder for Hubleto codebase: `mkdir /var/www/html/hubleto-core`
   2. Fork `hubleto/erp`, `hubleto/framework`, `hubleto/assets`, `hubleto/react-ui` into `hubleto-core` folder.
      *Note: If you have access to enterprise repository, you may fork this as well.*
-  4. Symlink these forks: `cd /var/www/html/hubleto` + `./bin/setup-dev-env.sh ../hubleto-core`
+  4. Symlink these forks by running following commands: `cd /var/www/html/hubleto` + `./bin/setup-dev-env.sh ../hubleto-core`
      *Note: the `setup-dev-env.sh` takes one argument - relative path to your Hubleto codebase*
   5. Initialize Hubleto: `php hubleto init`
 
