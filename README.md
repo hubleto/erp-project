@@ -14,13 +14,15 @@ To install production-ready Hubleto, follow these steps:
 
 To customize your Hubleto, create your `custom` apps:
 
-  1. Create app scaffolding: `php hubleto create app CarRental`
+  1. Create app's scaffolding: `php hubleto create app CarRental`
   2. Create the model: `php hubleto create model CarRental Car`
   3. Create basic UI: `php hubleto create mvc CarRental Car`
 
 > TIP: Check out `CLAUDE.md` instructions for better vibe-coding experience.
 
-> 🌟 Enjoy Hubleto and star if you like it!
+> TIP: Visit https://developer.hubleto.eu for more details on how to develop custom Hubleto apps.
+
+❤️ Give us a star it if you like Hubleto. Thank you. ❤️
 
 ## Create your own React UI compnents
 
