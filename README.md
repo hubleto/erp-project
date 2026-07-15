@@ -24,7 +24,7 @@ To customize your Hubleto, create your `custom` apps:
 
 ❤️ Give us a star it if you like Hubleto. Thank you. ❤️
 
-## Create your own React UI compnents
+## Custom React UI components
 
 We recommend you to use free [Hubleto React UI](https://github.com/hubleto/react-ui) library to develop rich data management features into your apps.
 
