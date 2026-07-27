@@ -75,6 +75,7 @@ module.exports = (env, arg) => {
       ],
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.scss', '.css'],
       alias: {
+        '@babel/runtime': path.resolve(__dirname, 'node_modules/@babel/runtime'),
         '@hubleto/ui/core': path.resolve(__dirname, 'vendor/hubleto/framework/src/Components/Core'),
         '@hubleto/ui/ext': path.resolve(__dirname, 'vendor/hubleto/framework/src/Components/Ext'),
         '@hubleto/framework': path.resolve(__dirname, 'vendor/hubleto/framework'),
