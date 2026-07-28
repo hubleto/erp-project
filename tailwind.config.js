@@ -4,7 +4,6 @@ module.exports = {
   content: [
     "./vendor/hubleto/erp/**/*.{html,js,twig,tsx}",
     "./vendor/hubleto/framework/**/*.{tsx,twig}",
-    "./node_modules/primereact/**/*.{js,ts,jsx,tsx}",
   ],
   safelist: [
     'hubleto-lookup__indicator',
